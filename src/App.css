@@ -1,0 +1,102 @@
+:root {
+  background-color: #dce1deff;
+}
+
+.App {
+  /* text-align: center; */
+  font-family: 'Philosopher', sans-serif;
+  font-size: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.container {
+  margin: 20px;
+}
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  margin: 15px;
+}
+
+.header-style {
+  background-color: #9ba1c0ff;
+  border-radius: 8px;
+}
+
+.seo {
+  font-size: 50x;
+  color: rgb(69, 3, 75);
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.8;
+}
+
+.submit-btn {
+  width: 70px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.Intro {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 60px;
+  border: 2px solid rgb(151, 121, 151);
+  border-radius: 20px;
+  padding: 5px;
+  background-color: rgb(201, 198, 201);
+}
+
+.frontend {
+  margin-bottom: 50px;
+}
+
+.backend {
+  margin-bottom: 50px;
+}
+
+.education {
+  margin-bottom: 50px;
+}
+
+.summary {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.articles {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border: 2px solid rgb(151, 121, 151);
+  border-radius: 20px;
+  padding: 5px;
+  background-color: rgb(201, 198, 201);
+}
+
+.footer-container {
+  text-align: center;
+  font-size: 40px;
+}
