@@ -6,7 +6,7 @@ function Resume() {
     // We return all the JSX inside a parent element with a className of "container".
     return (
         <div className="container">
-            <h1>Resume</h1>
+            <a href={myResume} ><h1>Resume</h1></a>
 
             <h3>Phone: (905) 572-1872 . Email: ms.mae.ahmad@gmail.com</h3>
             <div className="summary">
