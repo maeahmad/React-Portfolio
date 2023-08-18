@@ -152,7 +152,7 @@ function Projects() {
                     </ul>
                 </div>
                 <div className="image">
-                    <a href="https://musicapp-g7-8464089b4e0f.herokuapp.com/">
+                    <a href="https://musicio-d325003c7109.herokuapp.com/">
                         <img src={Project3} alt="Music App" width="350px" />
                     </a>
                     <a href="https://github.com/rohitwho/MusicApp">GitHub</a>
