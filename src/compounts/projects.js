@@ -1,6 +1,7 @@
 import React from 'react';
 import Project1 from "../Project-1.png"
 import Project2 from "../Project-2.png"
+import Project3 from "../Project-3.webp"
 function Projects() {
     // All functional components must have a return method that contains JSX.
     // We return all the JSX inside a parent element with a className of "container".
@@ -132,6 +133,29 @@ function Projects() {
                         <img src={Project2} alt="Randomize Page" width="350px" />
                     </a>
                     <a href="https://github.com/kingrex0830/student-manager">GitHub</a>
+                </div>
+            </article>
+
+
+            <article className="articles" id="article7">
+                <div>
+                    <h3>Connect With Music Application</h3>
+                    <p>It is an application that allow people to connect and chat with each other based on their music likes and share information.</p>
+                    <h4><strong> Aug. 2023</strong></h4>
+                    <ul>
+                        <li>
+                            It allows user to safely login and signup.
+                        </li>
+                        <li>It allows user to change profile information.</li>
+                        <li>It allows user to listen to their favorite music and add other users with the same likes.</li>
+                        <li>Users can exchange information about their favorite artists and songs</li>
+                    </ul>
+                </div>
+                <div className="image">
+                    <a href="https://musicapp-g7-8464089b4e0f.herokuapp.com/">
+                        <img src={Project3} alt="Music App" width="350px" />
+                    </a>
+                    <a href="https://github.com/rohitwho/MusicApp">GitHub</a>
                 </div>
             </article>
 
